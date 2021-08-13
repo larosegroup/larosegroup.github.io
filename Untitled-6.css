@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.nav {
+	background-color:#001416;
+}
+
+.nav ul {
+	padding: 2% 20%;
+	display: flex;
+	justify-content:space-around;
+	
+}
+
+.nav ul h3 {
+	color: #CE862F;
+	font-size: 18pt;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; 
+}
+
+video {
+  position: relative;
+}
+
+
+
+ .gioithieu {
+	background-color:#001416;
+	background-size:cover;
+	padding: 4% 15%;
+}
+
+ .gioithieu .ndgioithieu ul {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.gioithieu .ndgioithieu ul img {
+	padding: 0% 2%;
+
+}
+
+ .gioithieu .ndgioithieu p {
+	padding: 3% 30% 2%;
+	color:#D2D2CC;
+	font-size: 12pt;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+ .gioithieu .ndgioithieu hr {
+	display: block;
+    margin: 1% 45% 0% ;
+    border-width: 0.5px;
+}
+
+ h4 {
+	color:#9C6501;
+	font-size: 18pt;
+	font-family: 'MonteCarlo', cursive;
+	
+}
+
+.gioithieu .ndgioithieu .hinhgioithieu img {
+	padding-bottom: 1%;
+	margin: 0% 1%;
+}
+
+.gioithieu .ndgioithieu button {
+	background-color: transparent;
+	border-color:#D2D2CC;
+	margin-top:1%;
+	padding: 1% 3%;
+	color: #D2D2CC;
+	font-size: 11pt;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.noidung .nhahang {
+	text-align: center;
+	padding: 4% 25% 4%;
+	background-color: #2E4244;
+	background-size: cover;
+}
+
+.noidung .nhahang .ndnhahang {
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	margin-bottom: 3%;
+	
+}
+
+.nhahang .ndnhahang .chu {
+	margin: 0% 10% 0% 0%;
+	text-align:center;
+}
+
+button {
+	background-color: transparent;
+	border-color:#D2D2CC;
+	border-radius: 10px;
+	margin-top:1%;
+	padding: 3% 4%;
+	color: #D2D2CC;
+	font-size: 11pt;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+ p {
+	color:#D2D2CC;
+	font-size: 11pt;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding-bottom: 2%;
+	padding-top:2%;
+}
+
+ h1 {
+	color:#CE862F;
+	font-size: 30pt;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	padding-bottom:1%;
+}
+
+.noidung .bar {
+	text-align: center;
+	padding: 4% 25% 4%;
+	background-color: #002829;
+	background-size: cover;
+}
+
+.noidung .bar .ndbar {
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	margin-bottom: 3%;
+}
+
+.bar .ndbar .chu1 {
+	margin: 0% 0% 0% 10%;
+	text-align: center;
+}
+
+.noidung .menu {
+	text-align:center;
+	background-color:#2E4244;
+	backgroung-size: cover;
+	height: 450px;
+	padding: 3% 0%;
+}
+
+.menu .ndmenu1 {
+	display: block;
+	float: left; 
+	padding-left: 25%;
+	text-align: left;
+	padding-top: 2%;
+}
+
+.menu .ndmenu2 {
+	display: block;
+	float: right;
+	padding-right: 25%;
+	text-align: right;
+	padding-top: 2%;
+}
+
+.menu h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18pt;
+	color: #CE8F1D;
+}
+
+.reservation {
+	padding: 3% 0%;
+	background-color:#002829;
+	
+}
+
+.reservation p {
+	padding: 1% 30%;
+}
+
+.reservation select {
+	background-color:transparent;
+	border-radius: 10px;
+	margin: 2% 2% 3%;
+	height:60px;
+	width:250px;
+	font-size: 18pt;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#CE862F;
+	border: 1px solid ;
+	
+}
+
+.reservation .cauhoi {
+	display: flex;
+	justify-content:space-around;
+	margin: 1%;
+}
+
+
+.reservation label {
+	font-size: 18pt;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#CE862F;
+	
+}
+
+.reservation input {
+  background-color:#D2D2CC;
+  width: 20%;
+  color:#26211C;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 12pt;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.reservation button {
+	padding: 1% 2%;
+	margin: 3% 0% 2%;
+}
+
+.hinh {
+	text-align:center;
+	padding: 3%;
+	background-color: #2E4244;
+}
+
+.footer {
+	text-align: center;
+	background-color:#001416;
+	padding: 5%;
+}
+
+.footer p {
+	font-size: 12pt;
+}
+
+.footer ul {
+ display: flex;
+ justify-content:space-around;
+ padding: 0% 30% 2%;
+	
+}
+
+.footer ul h3 {
+	text-decoration: underline;
+	color:#CE862F;
+	font-size: 15pt;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
